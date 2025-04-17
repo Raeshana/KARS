@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3490a2e7a04a484abd66542aec0f6eb, type: 3}
+  m_Name: JohannesChoice1SO
+  m_EditorClassIdentifier: 
+  choice: "Seasons as color? That\u2019s beautiful. How did you come up with that
+    idea?"
+  dialogue:
+  - 'It began with observation. Spring is light and playful: yellow-greens, violets.
+    Summer is calm, think cool blues, rose pinks. Autumn, of course, is bold and
+    earthy think burnt orange, deep reds. Winter? Stark and high contrast.'
+  - "This provides us with an instinctual way of thinking about color theory -- think
+    about warm vs cool, saturated vs unsaturated. Why don\u2019t you try to match
+    colors to the season right now?"

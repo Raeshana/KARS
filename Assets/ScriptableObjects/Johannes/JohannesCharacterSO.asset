@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3140afbb690aa748a5c44457d35063e, type: 3}
+  m_Name: JohannesCharacterSO
+  m_EditorClassIdentifier: 
+  image1: {fileID: 21300000, guid: ab3500618c51a314f878cb3c5a141517, type: 3}
+  image2: {fileID: 21300000, guid: 2926d7f02f8016e428a112b2b928b078, type: 3}
+  title: Johannes Itten
+  dialogue:
+  - "Ah, a new face, welcome! I\u2019m Johannes Itten, one of the first masters at
+    this new school we\u2019re building. We\u2019re not just teaching students how
+    to paint or build. We\u2019re teaching them how to see, how to feel form, how
+    to truly understand color."
+  - "My work here focuses on the foundations: line, shape, rhythm, and most importantly,
+    color theory. I\u2019ve begun organizing colors not only by contrast, but by
+    something more intuitive\u2026 more human. Think of the seasons: can\u2019t you
+    feel the color of spring, or winter?"
+  choice1: {fileID: 11400000, guid: bfc5dd84188e06e4fad3943784332a7b, type: 2}
+  choice2: {fileID: 11400000, guid: 9be6d60955b67d0478ce839781d38641, type: 2}

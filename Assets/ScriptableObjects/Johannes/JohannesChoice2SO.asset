@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3490a2e7a04a484abd66542aec0f6eb, type: 3}
+  m_Name: JohannesChoice2SO
+  m_EditorClassIdentifier: 
+  choice: Color theory sounds abstract. What does that actually mean for design here
+    at the Bauhaus?
+  dialogue:
+  - 'Color theory is more than a palette but a tool for structure. We train students
+    to see contrast: warm vs cool, complementary, saturation. Understanding these
+    relationships builds harmony, whether in a painting, a chair, or a building facade.'
+  - "We can take this idea and apply it to how the seasons feel. What do you picture
+    when I say Autumn, Spring, Winter, and Summer? Color theory is instinctual and
+    completely human. Why don\u2019t you try to match colors to the season right
+    now?"

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3140afbb690aa748a5c44457d35063e, type: 3}
+  m_Name: "L\xE1szl\xF3CharacterSO"
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: b6dc4bc2539eed349995fa4c7bbd8bae, type: 3}
+  image:
+  - {fileID: 21300000, guid: 095459d9b99aac3489de439f26158f0c, type: 3}
+  - {fileID: 21300000, guid: f97a8cc3e040b9d4c8f1b0fc41da1f77, type: 3}
+  - {fileID: 21300000, guid: f0b1e6a069ea4204d810a4fc356ac7b4, type: 3}
+  title: "L\xE1szl\xF3 Moholy-Nagy"
+  dialogue:
+  - "Welcome to Dessau! I'm L\xE1szl\xF3 Moholy-Nagy. My goal is to introduce photography
+    into Bauhaus ideals. I believe that the camera holds a new way of seeing that
+    the human eye cannot."
+  - "I aim to explore this through experimentation. There\u2019s so much we can manipulate
+    through the lens of a camera -- think of all you can do with light, paper, and
+    everyday objects."
+  choice1: {fileID: 11400000, guid: 07a08e3f165b11c4bbeee9a39c7ba868, type: 2}
+  choice2: {fileID: 11400000, guid: f7e4836c541ab634ca63e85eeb91faa6, type: 2}

@@ -15,6 +15,9 @@ public class CharacterSceneSetup : MonoBehaviour
     [SerializeField] TMP_Text choice1;
     [SerializeField] TMP_Text choice2;
 
+    [Header("Background")]
+    [SerializeField] Image backgroundImage;
+
     [Header("Character")]
     [SerializeField] TMP_Text characterTitle;
     [SerializeField] Image characterImage;
@@ -41,6 +44,9 @@ public class CharacterSceneSetup : MonoBehaviour
         characterTitle.text = character.title;
         characterImage.sprite = character.image[0];
         imageMax = character.image.Length;
+
+        // Setup background information
+        backgroundImage.sprite = character.background;
 
         // Populate dialogue
         dialogue = new string[4];

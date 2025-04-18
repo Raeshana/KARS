@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3490a2e7a04a484abd66542aec0f6eb, type: 3}
+  m_Name: "L\xE1szl\xF3Choice2SO"
+  m_EditorClassIdentifier: 
+  choice: Everyday objects how do you mean?
+  dialogue:
+  - "Everyday objects through the camera can be made more beautiful than just through
+    our eyes. This is what I\u2019m exploring through photograms -- pictures created
+    by exposing photographic paper to light sources."
+  - "Why don\u2019t you give it a try with some objects around the school?"

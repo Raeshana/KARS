@@ -991,6 +991,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1612568497}
     - target: {fileID: 3653420050022257603, guid: 4a5bfae5e523dc241a622a233c625cca, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 11400000, guid: 51be764828ad73c49ab3c14cd32de887, type: 2}
+    - target: {fileID: 3653420050022257603, guid: 4a5bfae5e523dc241a622a233c625cca, type: 3}
       propertyPath: backButton
       value: 
       objectReference: {fileID: 1717581677}

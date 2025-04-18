@@ -7,8 +7,7 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "CharacterSO", menuName = "ScriptableObjects/CharacterSO", order = 1)]
 public class CharacterSO : ScriptableObject
 {
-    public Sprite image1;
-    public Sprite image2;
+    public Sprite[] image;
     public string title;
     public string[] dialogue;
     public ChoiceSO choice1;

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3140afbb690aa748a5c44457d35063e, type: 3}
   m_Name: JohannesCharacterSO
   m_EditorClassIdentifier: 
-  image1: {fileID: 21300000, guid: ab3500618c51a314f878cb3c5a141517, type: 3}
-  image2: {fileID: 21300000, guid: 2926d7f02f8016e428a112b2b928b078, type: 3}
+  image:
+  - {fileID: 21300000, guid: ab3500618c51a314f878cb3c5a141517, type: 3}
+  - {fileID: 21300000, guid: 2926d7f02f8016e428a112b2b928b078, type: 3}
   title: Johannes Itten
   dialogue:
   - "Ah, a new face, welcome! I\u2019m Johannes Itten, one of the first masters at

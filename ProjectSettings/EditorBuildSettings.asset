@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Act2/Act2InfoScene.unity
     guid: 223c33d084491934b989264d3d96e993
+  - enabled: 1
+    path: Assets/Scenes/Act2/Act2PhotogramScene.unity
+    guid: c6660bdfdd293be4d8514e437fc60e8d
+  - enabled: 1
+    path: Assets/Scenes/Act2/PhotogramGameplayScene.unity
+    guid: 4b82f4e078e03a34fab7cf27a380cf61
   m_configObjects: {}

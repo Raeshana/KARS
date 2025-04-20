@@ -42,4 +42,28 @@ public class SceneController : MonoBehaviour
             GoToColorTheoryScene();
         }
     }
+
+    public void ColorGameplayWin() {
+        SceneManager.LoadScene("ColorGameplayWin", LoadSceneMode.Additive);
+    }
+
+    public void CloseColorGameplayWin() {
+        SceneManager.UnloadSceneAsync("ColorGameplayWin");
+    }
+
+    public void ColorGameplayLose() {
+        SceneManager.LoadScene("ColorGameplayLose", LoadSceneMode.Additive);
+    }
+
+    public void CloseColorGameplayLose() {
+        SceneManager.UnloadSceneAsync("ColorGameplayLose");
+    }
+
+    public void ColorGameplayScene() {
+        SceneManager.LoadScene("ColorGameplayScene", LoadSceneMode.Single);
+    }
+
+    public void GoToAct2() {
+        SceneManager.LoadScene("Act2HeaderScene", LoadSceneMode.Single);
+    }
 }

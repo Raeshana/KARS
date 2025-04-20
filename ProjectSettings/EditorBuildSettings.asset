@@ -21,6 +21,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Act1/ColorGameplayScene.unity
     guid: 53d7ef1256bf1044f843c1590428023a
   - enabled: 1
+    path: Assets/Scenes/Act1/ColorTheorySceneAdd.unity
+    guid: 661293494caef2347a17676d2d93d59f
+  - enabled: 1
+    path: Assets/Scenes/Act1/ColorGameplayWin.unity
+    guid: 851be2d4ac49d5640969c6d948e085aa
+  - enabled: 1
+    path: Assets/Scenes/Act1/ColorGameplayLose.unity
+    guid: abec20ea6b1c6404596d6499d6bc5937
+  - enabled: 1
     path: Assets/Scenes/Act2/Act2HeaderScene.unity
     guid: 3a73e39987316844bb8918bd0652ddcc
   - enabled: 1
@@ -50,7 +59,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Act3/TextilesGameplayScene.unity
     guid: 8264565ec594e6f478d509d9a221d380
-  - enabled: 1
-    path: Assets/Scenes/Act1/ColorTheorySceneAdd.unity
-    guid: 661293494caef2347a17676d2d93d59f
   m_configObjects: {}

@@ -23,4 +23,23 @@ public class SceneController : MonoBehaviour
 
         SceneManager.LoadScene(next, LoadSceneMode.Single);
     }
+
+    [ContextMenu("Overlays color theory scene")]
+    public void GoToColorTheoryScene() {
+        SceneManager.LoadScene("ColorTheorySceneAdd", LoadSceneMode.Additive);
+    }
+
+    [ContextMenu("Closes color theory scene")]
+    public void CloseColorTheoryScene() {
+        SceneManager.UnloadSceneAsync("ColorTheorySceneAdd");
+    }
+
+    public void ColorTheoryScene() {
+        if (SceneManager.GetSceneByName("ColorTheorySceneAdd").isLoaded) {
+            CloseColorTheoryScene();
+        }
+        else {
+            GoToColorTheoryScene();
+        }
+    }
 }

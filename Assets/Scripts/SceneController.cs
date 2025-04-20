@@ -11,17 +11,6 @@ public class SceneController : MonoBehaviour
         int current = SceneManager.GetActiveScene().buildIndex;
         int next = current + 1;
         SceneManager.LoadScene(next, LoadSceneMode.Single);
-        // StartCoroutine(GoToNextSceneRoutine());
-    }
-
-    private IEnumerator GoToNextSceneRoutine()
-    {
-        int current = SceneManager.GetActiveScene().buildIndex;
-        int next = current + 1;
-
-        yield return new WaitForSeconds(0.35f);
-
-        SceneManager.LoadScene(next, LoadSceneMode.Single);
     }
 
     [ContextMenu("Overlays color theory scene")]
@@ -65,5 +54,29 @@ public class SceneController : MonoBehaviour
 
     public void GoToAct2() {
         SceneManager.LoadScene("Act2HeaderScene", LoadSceneMode.Single);
+    }
+
+    public void GoToAct3() {
+        SceneManager.LoadScene("Act3HeaderScene", LoadSceneMode.Single);
+    }
+
+    public void TextilesGameplayWin() {
+        SceneManager.LoadScene("TextilesGameplayWin", LoadSceneMode.Additive);
+    }
+
+    public void CloseTextilesGameplayWin() {
+        SceneManager.UnloadSceneAsync("TextilesGameplayWin");
+    }
+
+    public void TextilesGameplayLose() {
+        SceneManager.LoadScene("TextilesGameplayLose", LoadSceneMode.Additive);
+    }
+
+    public void CloseTextilesGameplayLose() {
+        SceneManager.UnloadSceneAsync("TextilesGameplayLose");
+    }
+
+    public void TextilesGameplayScene() {
+        SceneManager.LoadScene("TextilesGameplayScene", LoadSceneMode.Single);
     }
 }

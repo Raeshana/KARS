@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Act3/TextilesGameplayScene.unity
     guid: 8264565ec594e6f478d509d9a221d380
+  - enabled: 1
+    path: Assets/Scenes/Act3/TextilesGameplayWin.unity
+    guid: a3ebe8320725fe54eaedddab581c34a6
   m_configObjects: {}

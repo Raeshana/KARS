@@ -20,7 +20,7 @@ public class TextilesGameplayWinCondition : MonoBehaviour
     public void EnterAnswer()
     {
         foreach (var textile in textiles) {
-            if (textile.rotation.eulerAngles.z == 0) {
+            if (textile.rotation.z == 0) {
                 isAligned = isAligned && true;
             }
             else {

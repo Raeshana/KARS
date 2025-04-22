@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Opening/TitleScene.unity
+    guid: 2445c4579b8a13d4980381d09623f2b6
+  - enabled: 1
+    path: Assets/Scenes/Opening/SelectionScene.unity
+    guid: edf333803961e5c43956d4bb637f2e1d
+  - enabled: 1
+    path: Assets/Scenes/Opening/BauhausTitleScene.unity
+    guid: 9a56e1956774c0d4a9454ae69b1f0b0d
+  - enabled: 1
+    path: Assets/Scenes/Opening/BauhausOpeningScene.unity
+    guid: d02c6260e35eaea43ae6df30307c6c8e
+  - enabled: 1
+    path: Assets/Scenes/Opening/ModernMuseumManagerScene.unity
+    guid: a6c94312c80d25248b739e3f30c96366
+  - enabled: 1
+    path: Assets/Scenes/Opening/TimeTravelScene.unity
+    guid: 53c93aa142565c549a3abe727466b787
+  - enabled: 1
     path: Assets/Scenes/Act1/Act1HeaderScene.unity
     guid: b3ee8ea35a32da84099575e98e1b22f8
   - enabled: 1
@@ -62,4 +80,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Act3/TextilesGameplayWin.unity
     guid: a3ebe8320725fe54eaedddab581c34a6
+  - enabled: 1
+    path: Assets/Scenes/Act3/TextilesGameplayLose.unity
+    guid: 1ac3e03d317c75c46bc93f8cbfaf3336
   m_configObjects: {}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class TextilesGameplayWinCondition : MonoBehaviour
 {
     [SerializeField] 
-    private Transform[] textiles;
+    private GameObject[] textiles;
 
     [SerializeField]
     private SceneController sceneController;
@@ -20,7 +20,7 @@ public class TextilesGameplayWinCondition : MonoBehaviour
     public void EnterAnswer()
     {
         foreach (var textile in textiles) {
-            if (textile.rotation.z == 0) {
+            if (textile.transform.rotation.eulerAngles.z <= 0) {
                 isAligned = isAligned && true;
             }
             else {

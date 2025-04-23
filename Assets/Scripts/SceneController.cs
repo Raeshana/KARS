@@ -79,4 +79,32 @@ public class SceneController : MonoBehaviour
     public void TextilesGameplayScene() {
         SceneManager.LoadScene("TextilesGameplayScene", LoadSceneMode.Single);
     }
+
+    public void GoToEndingScene() {
+        SceneManager.LoadScene("EndingScene", LoadSceneMode.Single);
+    }
+
+    public void GoToWinEndingScene() {
+        SceneManager.LoadScene("WinEndingScene", LoadSceneMode.Single);
+    }
+
+    public void GoToCriticEndingScene() {
+        SceneManager.LoadScene("CriticEndingScene", LoadSceneMode.Single);
+    }
+
+    public void GoToReplayScene() {
+        SceneManager.LoadScene("ReplayScene", LoadSceneMode.Single);
+    }
+
+    public void GoToSelectionScene() {
+        SceneManager.LoadScene("SelectionScene", LoadSceneMode.Single);
+    }
+
+    public void GoToTimeTravelScene() {
+        SceneManager.LoadScene("TimeTravelScene", LoadSceneMode.Single);
+    }
+
+    public void GoToExhibitionScene() {
+        SceneManager.LoadScene("ExhibitionScene", LoadSceneMode.Single);
+    }
 }

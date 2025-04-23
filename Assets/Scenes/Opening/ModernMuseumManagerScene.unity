@@ -993,7 +993,7 @@ PrefabInstance:
     - target: {fileID: 3653420050022257603, guid: 4a5bfae5e523dc241a622a233c625cca, type: 3}
       propertyPath: character
       value: 
-      objectReference: {fileID: 11400000, guid: acf4248573ba7f142810a6953aa1af3a, type: 2}
+      objectReference: {fileID: 11400000, guid: da46b0a7f8f52584480eca7cd8a70861, type: 2}
     - target: {fileID: 3653420050022257603, guid: 4a5bfae5e523dc241a622a233c625cca, type: 3}
       propertyPath: backButton
       value: 
@@ -1028,6 +1028,14 @@ PrefabInstance:
       objectReference: {fileID: 2138306393}
     - target: {fileID: 3653420050022257603, guid: 4a5bfae5e523dc241a622a233c625cca, type: 3}
       propertyPath: nextSceneButton
+      value: 
+      objectReference: {fileID: 403076669}
+    - target: {fileID: 3653420050022257603, guid: 4a5bfae5e523dc241a622a233c625cca, type: 3}
+      propertyPath: nextSceneButton1
+      value: 
+      objectReference: {fileID: 403076669}
+    - target: {fileID: 3653420050022257603, guid: 4a5bfae5e523dc241a622a233c625cca, type: 3}
+      propertyPath: nextSceneButton2
       value: 
       objectReference: {fileID: 403076669}
     - target: {fileID: 6214306522183500103, guid: 4a5bfae5e523dc241a622a233c625cca, type: 3}

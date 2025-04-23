@@ -10,6 +10,8 @@ public class TextilesGameplayWinCondition : MonoBehaviour
     [SerializeField]
     private SceneController sceneController;
 
+    [SerializeField] MetadataSO metadataSO;
+
     private bool isAligned;
 
     private void Start()
@@ -30,9 +32,11 @@ public class TextilesGameplayWinCondition : MonoBehaviour
 
         if (isAligned) {
             sceneController.TextilesGameplayWin();
+            metadataSO.act3 = true;
         }     
         else {
             sceneController.TextilesGameplayLose();
+            metadataSO.act3 = false;
         }   
     }
 }

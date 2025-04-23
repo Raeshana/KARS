@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3490a2e7a04a484abd66542aec0f6eb, type: 3}
+  m_Name: ModernMuseumManagerEdChoice2SO
+  m_EditorClassIdentifier: 
+  choice: Take me back to the beginning, I want to explore more!
+  dialogue:
+  - Of course! Who knows, maybe you might learn new things?
+  - Without further ado, let's go!

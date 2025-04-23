@@ -16,6 +16,8 @@ public class ColorGameplayWinCondition : MonoBehaviour
     [SerializeField]
     private Button enterButton;
 
+    [SerializeField] MetadataSO metadataSO;
+
     private void DisableButtons() {
         hintButton.interactable = false;
         enterButton.interactable = false;   
@@ -23,11 +25,13 @@ public class ColorGameplayWinCondition : MonoBehaviour
 
     private void LoadWinScene() {
         DisableButtons();
+        metadataSO.act1 = true;
         sceneController.ColorGameplayWin();
     }
 
     private void LoadLoseScene() {
         DisableButtons();
+        metadataSO.act1 = false;
         sceneController.ColorGameplayLose();
     }
 

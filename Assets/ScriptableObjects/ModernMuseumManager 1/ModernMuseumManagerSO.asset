@@ -22,5 +22,5 @@ MonoBehaviour:
     time-traveling art historian -- onboard. "
   - Your first assignment will be to time-travel back to the 1920s to learn more
     about the Bauhaus movement for our special 100th anniversary of Bauhaus exhibit.
-  choice1: {fileID: 11400000, guid: 117e7173d4788ab429f695045e0dfedf, type: 2}
-  choice2: {fileID: 11400000, guid: 680ff837ae019ef4db32352a9f04d1c6, type: 2}
+  choice1: {fileID: 11400000, guid: a662d9c521ba6f048a825c36adbb9bfd, type: 2}
+  choice2: {fileID: 11400000, guid: 4381ba623bc41434e975afe6439969a9, type: 2}

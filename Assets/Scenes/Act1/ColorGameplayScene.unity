@@ -1680,6 +1680,7 @@ MonoBehaviour:
   sceneController: {fileID: 112941948}
   hintButton: {fileID: 2073129922}
   enterButton: {fileID: 1019953294}
+  metadataSO: {fileID: 11400000, guid: e717c14c4e191304cbd79e91a903952f, type: 2}
 --- !u!114 &2073129922 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8786566166288759733, guid: 3a4744d0134218d4b81e2d6ede98ec91, type: 3}

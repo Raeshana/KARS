@@ -1026,6 +1026,14 @@ PrefabInstance:
       propertyPath: nextSceneButton
       value: 
       objectReference: {fileID: 403076669}
+    - target: {fileID: 3653420050022257603, guid: 4a5bfae5e523dc241a622a233c625cca, type: 3}
+      propertyPath: nextSceneButton1
+      value: 
+      objectReference: {fileID: 403076669}
+    - target: {fileID: 3653420050022257603, guid: 4a5bfae5e523dc241a622a233c625cca, type: 3}
+      propertyPath: nextSceneButton2
+      value: 
+      objectReference: {fileID: 403076669}
     - target: {fileID: 6214306522183500103, guid: 4a5bfae5e523dc241a622a233c625cca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

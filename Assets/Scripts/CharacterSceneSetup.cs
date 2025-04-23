@@ -27,7 +27,8 @@ public class CharacterSceneSetup : MonoBehaviour
     [SerializeField] GameObject backButton;
     [SerializeField] GameObject choice1Button;
     [SerializeField] GameObject choice2Button;
-    [SerializeField] GameObject nextSceneButton;
+    [SerializeField] GameObject nextSceneButton1;
+    [SerializeField] GameObject nextSceneButton2;
 
     private string[] dialogue;
     private int count;
@@ -115,9 +116,6 @@ public class CharacterSceneSetup : MonoBehaviour
         // Remove choice buttons
         choice1Button.SetActive(false);
         choice2Button.SetActive(false);
-
-        // Enables next scene button
-        nextSceneButton.SetActive(true);
     }
 
     /// <summary>
@@ -130,6 +128,8 @@ public class CharacterSceneSetup : MonoBehaviour
         dialogue[3] = character.choice1.dialogue[1];
         
         Choice ();
+        // Enables next scene button
+        nextSceneButton1.SetActive(true);
     }
 
     /// <summary>
@@ -142,5 +142,6 @@ public class CharacterSceneSetup : MonoBehaviour
         dialogue[3] = character.choice2.dialogue[1];
 
         Choice ();
+        nextSceneButton2.SetActive(true);
     }
 }

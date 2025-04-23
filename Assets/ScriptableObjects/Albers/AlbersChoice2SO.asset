@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3490a2e7a04a484abd66542aec0f6eb, type: 3}
   m_Name: AlbersChoice2SO
   m_EditorClassIdentifier: 
-  choice: choice2
+  choice: "Thread as a carrier of meaning? How have you \u2018woven\u2019 this into
+    your work?"
   dialogue:
-  - placeholder-choice2
-  - placeholder-choice2-2
+  - 'I employ elaborate repeating iconography and patterns in my textiles to explore
+    semiotic communication: interpretation of signs, symbols, or gestures.'
+  - "One of my most famous works is Six Prayers: a Holocaust memorial meant to imitate
+    Hebrew scrolls while symbolizing the grief and mayhem of the tragedy. Now, why
+    don\u2019t you try to mak your own textile art?"

@@ -10,6 +10,6 @@ public class CriticSetup : MonoBehaviour
 
     void Start()
     {
-        quote.text = metadataSO.quote;
+        quote.text = "'" + metadataSO.quote + "'";
     }
 }

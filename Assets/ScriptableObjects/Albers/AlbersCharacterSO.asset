@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3140afbb690aa748a5c44457d35063e, type: 3}
   m_Name: AlbersCharacterSO
   m_EditorClassIdentifier: 
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 32a2767a8552f964fba0c7606e928bcd, type: 3}
   image:
   - {fileID: 21300000, guid: 4622c134b89b93149a1b5d4bd4a6b48f, type: 3}
   - {fileID: 21300000, guid: 1e2ca3cae54116d488f0cd6bccaeeaa0, type: 3}
-  title: Anni placeholder
+  title: Anni Albers
   dialogue:
-  - placeholder
-  - placeholder2
+  - "Welcome to the US! My name is Anni Albers. I fled from Germany due to Nazi persecution,
+    and I\u2019m currently teaching at Black Mountain College in North Carolina --
+    epicenter of a new experimental Bauhaus movement."
+  - My specialty is in textiles. I believe that non-European -- specifically -- Andean
+    textiles are the standard for understanding textiles as a form of art. Thread
+    is a carrier of meaning, not just a utilitarian product.
   choice1: {fileID: 11400000, guid: e16692c7499b3514cac58ea2d2ec5d87, type: 2}
   choice2: {fileID: 11400000, guid: d86d62edcdc5af94aafecd1815d22e5a, type: 2}

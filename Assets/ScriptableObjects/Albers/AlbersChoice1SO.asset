@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3490a2e7a04a484abd66542aec0f6eb, type: 3}
   m_Name: AlbersChoice1SO
   m_EditorClassIdentifier: 
-  choice: choice1
+  choice: "Andean Textiles? I\u2019ve never heard of that."
   dialogue:
-  - placeholder-choice1
-  - placeholder-choice1-2
+  - Andean Textiles were created by Indigenous Peoples in what is now Peru. Their
+    textiles told stories through elaborate repeating iconography and geometric patterns,
+    which heavily influence my own work.
+  - "Why don\u2019t you try to make your own textile art?"

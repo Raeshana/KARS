@@ -39,11 +39,11 @@ public class ColorGameplayWinCondition : MonoBehaviour
         float red = paint.color.r;
         float green = paint.color.g;
         float blue = paint.color.b;
-        if (blue >= (100/255) & green <= (80/255) && red <= (80/255)) {
+        if ((blue >= (100/255)) && ((red + green) <= (150/255))) {
             LoadWinScene();
         }
         else {
-            LoadLoseScene();
+            Debug.Log(red + " " + green + " " + (red + green));
         }
     }
 }

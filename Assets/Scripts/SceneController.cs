@@ -61,7 +61,7 @@ public class SceneController : MonoBehaviour
     }
 
     public void PhotogramGameplayWin() {
-        SceneManager.LoadScene("PhotogramGameplayWin", LoadSceneMode.Single);
+        SceneManager.LoadScene("PhotogramGameplayWin", LoadSceneMode.Additive);
     }
 
     public void ClosePhotogramGameplayWin() {
@@ -69,7 +69,7 @@ public class SceneController : MonoBehaviour
     }    
 
     public void PhotogramGameplayLose() {
-        SceneManager.LoadScene("PhotogramGameplayLose", LoadSceneMode.Single);
+        SceneManager.LoadScene("PhotogramGameplayLose", LoadSceneMode.Additive);
     }
 
     public void ClosePhotogramGameplayLose() {

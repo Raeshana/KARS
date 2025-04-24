@@ -69,6 +69,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Act2/PhotogramGameplayScene.unity
     guid: 4b82f4e078e03a34fab7cf27a380cf61
   - enabled: 1
+    path: Assets/Scenes/Act2/PhotogramGameplayWin.unity
+    guid: fc820a4828de5a34b98c0684004e91f7
+  - enabled: 1
+    path: Assets/Scenes/Act2/PhotogramGameplayLose.unity
+    guid: 687c61b6ba15aff4b962fa4cae8f59f8
+  - enabled: 1
     path: Assets/Scenes/Act3/Act3HeaderScene.unity
     guid: c951bfc74410d90419efb1a4286422d6
   - enabled: 1

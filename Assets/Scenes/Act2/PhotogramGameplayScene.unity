@@ -210,6 +210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BauhausObject
       objectReference: {fileID: 0}
+    - target: {fileID: 3986417923292610281, guid: 23f5e7ce2432361409e3a70133f88c7d, type: 3}
+      propertyPath: photogramObject
+      value: 
+      objectReference: {fileID: 72926100}
     - target: {fileID: 4573998062628762942, guid: 23f5e7ce2432361409e3a70133f88c7d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -299,6 +303,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23f5e7ce2432361409e3a70133f88c7d, type: 3}
+--- !u!114 &250243503 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7850394376841598951, guid: 98701101a6d26eb4eb5ee6bc29fa2781, type: 3}
+  m_PrefabInstance: {fileID: 975724564}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed83423d532ab68499186c8df9871d44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &770714661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1350,15 +1365,22 @@ MonoBehaviour:
   photogramObjects:
   - {fileID: 1683617466}
   - {fileID: 72926100}
+  photogramSprites:
+  - {fileID: 21300000, guid: dbae6637731e8a04397832a9525776d5, type: 3}
+  - {fileID: 21300000, guid: 534356b76e5c13f489d561d52ffc8a8b, type: 3}
+  - {fileID: 21300000, guid: 987109de51dc5124e91b93c5733578fb, type: 3}
+  - {fileID: 21300000, guid: 685b109027ffa9e42b452902a1497012, type: 3}
+  - {fileID: 21300000, guid: 5c419b21991dd8c43bcf72bde2a2e130, type: 3}
+  - {fileID: 21300000, guid: 1914c13d4e509e44187909811c6a31c1, type: 3}
   whiteObjects:
-  - {fileID: 21300000, guid: 92331d40a786e43439533a25c000131e, type: 3}
-  - {fileID: 21300000, guid: 8ee8e6fa928cdea429746ceecc6a3f99, type: 3}
-  - {fileID: 21300000, guid: c6dbcbd9aed9f8f449ea8b9cc4bbef17, type: 3}
   - {fileID: 21300000, guid: b8fcd172a1ebfff42b83b71ddce8d42d, type: 3}
+  - {fileID: 21300000, guid: 8ee8e6fa928cdea429746ceecc6a3f99, type: 3}
+  - {fileID: 21300000, guid: 92331d40a786e43439533a25c000131e, type: 3}
+  - {fileID: 21300000, guid: c6dbcbd9aed9f8f449ea8b9cc4bbef17, type: 3}
   - {fileID: 21300000, guid: 5604b1490cb429543a1b35ca738b7a32, type: 3}
   - {fileID: 21300000, guid: e4a939bbca78d684e922db34de7c3438, type: 3}
-  bauhausObjects: 0001
-  sceneController: {fileID: 0}
+  bauhausObjects: 0101
+  sceneController: {fileID: 250243503}
 --- !u!1001 &5006196296925216204
 PrefabInstance:
   m_ObjectHideFlags: 0

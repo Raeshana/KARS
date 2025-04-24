@@ -315,6 +315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CRT
       objectReference: {fileID: 0}
+    - target: {fileID: 3986417923292610281, guid: 23f5e7ce2432361409e3a70133f88c7d, type: 3}
+      propertyPath: photogramObject
+      value: 
+      objectReference: {fileID: 1752476248}
     - target: {fileID: 4573998062628762942, guid: 23f5e7ce2432361409e3a70133f88c7d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -432,6 +436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WassilyChair
       objectReference: {fileID: 0}
+    - target: {fileID: 3986417923292610281, guid: 23f5e7ce2432361409e3a70133f88c7d, type: 3}
+      propertyPath: photogramObject
+      value: 
+      objectReference: {fileID: 916156277}
     - target: {fileID: 4573998062628762942, guid: 23f5e7ce2432361409e3a70133f88c7d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -538,6 +546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair
       objectReference: {fileID: 0}
+    - target: {fileID: 3986417923292610281, guid: 23f5e7ce2432361409e3a70133f88c7d, type: 3}
+      propertyPath: photogramObject
+      value: 
+      objectReference: {fileID: 1250464371}
     - target: {fileID: 4573998062628762942, guid: 23f5e7ce2432361409e3a70133f88c7d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1101,6 +1113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TeaInfuser
       objectReference: {fileID: 0}
+    - target: {fileID: 3986417923292610281, guid: 23f5e7ce2432361409e3a70133f88c7d, type: 3}
+      propertyPath: photogramObject
+      value: 
+      objectReference: {fileID: 1733202582}
     - target: {fileID: 4573998062628762942, guid: 23f5e7ce2432361409e3a70133f88c7d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

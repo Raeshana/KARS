@@ -8,7 +8,9 @@ public class FinalWinCondition : MonoBehaviour
     [SerializeField] SceneController sceneController;
 
     public void FinalButton() {
-        if (metadataSO.act1 & metadataSO.act2 & metadataSO.act3) {
+        if (metadataSO.act1 && metadataSO.act2 || 
+            metadataSO.act1 && metadataSO.act3 ||
+            metadataSO.act2 && metadataSO.act3) {
             sceneController.GoToWinEndingScene();
         }
         else {

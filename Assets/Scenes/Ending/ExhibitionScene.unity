@@ -176,7 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   metadataSO: {fileID: 11400000, guid: e717c14c4e191304cbd79e91a903952f, type: 2}
   act1Sprite: {fileID: 21300000, guid: ae866cf93b02f274095ecb83dac003dc, type: 3}
-  act2Sprite: {fileID: 21300000, guid: 81178e14ccf493e4dadf46653a29933b, type: 3}
+  act2Sprite: {fileID: 21300000, guid: c08389c43d31ee240bc67850e5959a84, type: 3}
   act3Sprite: {fileID: 21300000, guid: cc4704872246f2d4bb73af7a20aeb508, type: 3}
   act1Image: {fileID: 1206433583}
   act2Image: {fileID: 2077353856}

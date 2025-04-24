@@ -11,6 +11,7 @@ public class LightPhotogram : MonoBehaviour
     [SerializeField] bool[] bauhausObjects;
 
     [SerializeField] SceneController sceneController;
+    [SerializeField] MetadataSO metadataSO;
 
     private bool isBauhausObject;
 
@@ -40,18 +41,20 @@ public class LightPhotogram : MonoBehaviour
 
         for (int i = 0; i < photogramObjects.Length; i++) {
             if (photogramObjects[i].gameObject.activeSelf == bauhausObjects[i]) {
-                isBauhausObject = isBauhausObject & true;
+                isBauhausObject = isBauhausObject && true;
             }
             else {
-                isBauhausObject = isBauhausObject & false;
+                isBauhausObject = isBauhausObject && false;
             }
         }
 
         if (isBauhausObject) {
             sceneController.PhotogramGameplayWin();
+            metadataSO.act2 = true;
         }
         else {
             sceneController.PhotogramGameplayLose();
+            metadataSO.act2 = false;
         }
     }
 }

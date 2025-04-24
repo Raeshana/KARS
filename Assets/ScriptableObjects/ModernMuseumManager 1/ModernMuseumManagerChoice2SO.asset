@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   choice: Sounds good. See you on the other end!
   dialogue:
-  - Great!
+  - 'Great! As a reminder, next you''ll see some notable pieces from the Bauhaus
+    movement. '
   - Enjoy your journey through time, traveller!

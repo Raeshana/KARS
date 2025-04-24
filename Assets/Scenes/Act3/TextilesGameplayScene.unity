@@ -1726,6 +1726,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1633553857}
     m_Modifications:
+    - target: {fileID: 3596438484372927389, guid: d801106641e5b374fa05a7c6fa030d78, type: 3}
+      propertyPath: m_text
+      value: Align the components of 'Yellow Meanders'
+      objectReference: {fileID: 0}
     - target: {fileID: 3891914817477550417, guid: d801106641e5b374fa05a7c6fa030d78, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1752,7 +1756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3891914817477550417, guid: d801106641e5b374fa05a7c6fa030d78, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1000
+      value: 1600
       objectReference: {fileID: 0}
     - target: {fileID: 3891914817477550417, guid: d801106641e5b374fa05a7c6fa030d78, type: 3}
       propertyPath: m_SizeDelta.y

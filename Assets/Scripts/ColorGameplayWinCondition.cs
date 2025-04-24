@@ -43,7 +43,7 @@ public class ColorGameplayWinCondition : MonoBehaviour
             LoadWinScene();
         }
         else {
-            Debug.Log(red + " " + green + " " + (red + green));
+            LoadLoseScene();
         }
     }
 }

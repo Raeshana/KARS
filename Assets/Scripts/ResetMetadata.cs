@@ -7,7 +7,7 @@ public class ResetMetadata : MonoBehaviour
     [SerializeField] MetadataSO metadataSO;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         metadataSO.act1 = false;
         metadataSO.act2 = false;

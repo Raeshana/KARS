@@ -60,6 +60,26 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("Act3HeaderScene", LoadSceneMode.Single);
     }
 
+    public void PhotogramGameplayWin() {
+        SceneManager.LoadScene("PhotogramGameplayWin", LoadSceneMode.Single);
+    }
+
+    public void ClosePhotogramGameplayWin() {
+        SceneManager.UnloadSceneAsync("PhotogramGameplayWin");
+    }    
+
+    public void PhotogramGameplayLose() {
+        SceneManager.LoadScene("PhotogramGameplayLose", LoadSceneMode.Single);
+    }
+
+    public void ClosePhotogramGameplayLose() {
+        SceneManager.UnloadSceneAsync("PhotogramGameplayLose");
+    }    
+
+    public void PhotogramGameplayScene() {
+        SceneManager.LoadScene("PhotogramGameplayScene", LoadSceneMode.Single);
+    }
+
     public void TextilesGameplayWin() {
         SceneManager.LoadScene("TextilesGameplayWin", LoadSceneMode.Additive);
     }

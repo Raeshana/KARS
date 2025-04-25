@@ -10,9 +10,14 @@ public class TextilesGameplayWinCondition : MonoBehaviour
     [SerializeField]
     private SceneController sceneController;
 
-    [SerializeField] MetadataSO metadataSO;
+    private Metadata metadata;
 
     private bool isAligned;
+
+    void Awake()
+    {
+        metadata = GameObject.FindWithTag("Metadata").GetComponent<Metadata>();
+    }
 
     private void Start()
     {
@@ -32,11 +37,11 @@ public class TextilesGameplayWinCondition : MonoBehaviour
 
         if (isAligned) {
             sceneController.TextilesGameplayWin();
-            metadataSO.act3 = true;
+            metadata.SetAct3ToTrue();
         }     
         else {
             sceneController.TextilesGameplayLose();
-            metadataSO.act3 = false;
+            metadata.SetAct3ToFlase();
         }   
     }
 }

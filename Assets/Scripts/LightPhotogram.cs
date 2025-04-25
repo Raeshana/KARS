@@ -11,9 +11,14 @@ public class LightPhotogram : MonoBehaviour
     [SerializeField] bool[] bauhausObjects;
 
     [SerializeField] SceneController sceneController;
-    [SerializeField] MetadataSO metadataSO;
+    [SerializeField] Metadata metadata;
 
     private bool isBauhausObject;
+
+    void Awake()
+    {
+        metadata = GameObject.FindWithTag("Metadata").GetComponent<Metadata>();
+    }
 
     void Start()
     {
@@ -50,11 +55,11 @@ public class LightPhotogram : MonoBehaviour
 
         if (isBauhausObject) {
             sceneController.PhotogramGameplayWin();
-            metadataSO.act2 = true;
+            metadata.SetAct2ToTrue();
         }
         else {
             sceneController.PhotogramGameplayLose();
-            metadataSO.act2 = false;
+            metadata.SetAct2ToFalse();
         }
     }
 }

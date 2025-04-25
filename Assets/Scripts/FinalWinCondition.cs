@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class FinalWinCondition : MonoBehaviour
 {
-    [SerializeField] MetadataSO metadataSO;
+    [SerializeField] Metadata metadata;
     [SerializeField] SceneController sceneController;
 
+    void Awake()
+    {
+        metadata = GameObject.FindWithTag("Metadata").GetComponent<Metadata>();
+    }
+
     public void FinalButton() {
-        if (metadataSO.act1 && metadataSO.act2 || 
-            metadataSO.act1 && metadataSO.act3 ||
-            metadataSO.act2 && metadataSO.act3) {
+        if (metadata.act1 && metadata.act2 || 
+            metadata.act1 && metadata.act3 ||
+            metadata.act2 && metadata.act3) {
             sceneController.GoToWinEndingScene();
         }
         else {

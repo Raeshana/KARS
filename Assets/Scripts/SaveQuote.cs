@@ -5,11 +5,16 @@ using UnityEngine;
 
 public class SaveQuote : MonoBehaviour
 {
-    [SerializeField] MetadataSO metadataSO;
+    private Metadata metadata;
     [SerializeField] TMP_Text quoteText;
+
+    void Awake()
+    {
+        metadata = GameObject.FindWithTag("Metadata").GetComponent<Metadata>();
+    }
 
     public void SaveQuoteButton()
     {
-        metadataSO.quote = quoteText.text;
+        metadata.UpdateQuote(quoteText.text);
     }
 }

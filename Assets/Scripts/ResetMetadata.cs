@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class ResetMetadata : MonoBehaviour
 {
-    [SerializeField] MetadataSO metadataSO;
+    private Metadata metadata;
 
-    // Start is called before the first frame update
     void Awake()
     {
-        metadataSO.act1 = false;
-        metadataSO.act2 = false;
-        metadataSO.act3 = false;
-        metadataSO.quote = "";
+        metadata = GameObject.FindWithTag("Metadata").GetComponent<Metadata>();
+    }
+
+    void Start()
+    {
+        metadata.ResetMetadata();
     }
 }

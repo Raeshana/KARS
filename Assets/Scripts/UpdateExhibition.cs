@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UpdateExhibition : MonoBehaviour
 {
-    [SerializeField] MetadataSO metadataSO;
+    private Metadata metadata;
 
     [Header("Replacement Sprites")]
     [SerializeField] Sprite act1Sprite;
@@ -17,18 +17,23 @@ public class UpdateExhibition : MonoBehaviour
     [SerializeField] Image act2Image;
     [SerializeField] Image act3Image;
 
+    void Awake()
+    {
+        metadata = GameObject.FindWithTag("Metadata").GetComponent<Metadata>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        if (metadataSO.act1) {
+        if (metadata.act1) {
             act1Image.sprite = act1Sprite;
         }
 
-        if (metadataSO.act2) {
+        if (metadata.act2) {
             act2Image.sprite = act2Sprite;
         }
 
-        if (metadataSO.act3) {
+        if (metadata.act3) {
             act3Image.sprite = act3Sprite;
         }
     }

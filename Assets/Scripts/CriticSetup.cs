@@ -5,11 +5,16 @@ using UnityEngine;
 
 public class CriticSetup : MonoBehaviour
 {
-    [SerializeField] MetadataSO metadataSO;
+    private Metadata metadata;
     [SerializeField] TMP_Text quote;
+
+    void Awake()
+    {
+        metadata = GameObject.FindWithTag("Metadata").GetComponent<Metadata>();
+    }
 
     void Start()
     {
-        quote.text = "'" + metadataSO.quote + "'";
+        quote.text = "'" + metadata.quote + "'";
     }
 }

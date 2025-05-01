@@ -842,8 +842,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bauhaus design, art, and architecture often features simple geometric forms
-    such as circles, squares, and triangles. Would you like to try again?
+  m_text: Bauhaus objects are characterized by clean geometric shapes, minimal ornamentation,
+    and a focus on function. Would you like to try again?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1c12fcfeaedf5c8459372778d83d20d8, type: 2}
   m_sharedMaterial: {fileID: 8532400553074830029, guid: 1c12fcfeaedf5c8459372778d83d20d8, type: 2}

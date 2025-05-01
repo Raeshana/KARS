@@ -174,10 +174,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af18e729a932d9f499597922bde76881, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  metadataSO: {fileID: 11400000, guid: e717c14c4e191304cbd79e91a903952f, type: 2}
   act1Sprite: {fileID: 21300000, guid: ae866cf93b02f274095ecb83dac003dc, type: 3}
   act2Sprite: {fileID: 21300000, guid: c08389c43d31ee240bc67850e5959a84, type: 3}
-  act3Sprite: {fileID: 21300000, guid: cc4704872246f2d4bb73af7a20aeb508, type: 3}
+  act3Sprite: {fileID: 21300000, guid: c5898a7ff1844384e834310362a9598b, type: 3}
   act1Image: {fileID: 1206433583}
   act2Image: {fileID: 2077353856}
   act3Image: {fileID: 639609518}
@@ -1058,7 +1057,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02269d0388084f1458c50de27afbec52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  metadataSO: {fileID: 11400000, guid: e717c14c4e191304cbd79e91a903952f, type: 2}
   quoteText: {fileID: 1821893127}
 --- !u!224 &1206433582 stripped
 RectTransform:
@@ -1650,7 +1648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22aab3793bbab3e48aad2efac3f90f5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  metadataSO: {fileID: 11400000, guid: e717c14c4e191304cbd79e91a903952f, type: 2}
+  metadata: {fileID: 0}
   sceneController: {fileID: 57021618}
 --- !u!1 &2074777736
 GameObject:

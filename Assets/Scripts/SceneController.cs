@@ -127,4 +127,42 @@ public class SceneController : MonoBehaviour
     public void GoToExhibitionScene() {
         SceneManager.LoadScene("ExhibitionScene", LoadSceneMode.Single);
     }
+
+    [ContextMenu("Overlays photogram theory scene")]
+    public void GoToPhotogramTheoryScene() {
+        SceneManager.LoadScene("PhotogramTheorySceneAdd", LoadSceneMode.Additive);
+    }
+
+    [ContextMenu("Closes photogram theory scene")]
+    public void ClosePhotogramTheoryScene() {
+        SceneManager.UnloadSceneAsync("PhotogramTheorySceneAdd");
+    }
+
+    public void PhotogramTheoryScene() {
+        if (SceneManager.GetSceneByName("PhotogramTheorySceneAdd").isLoaded) {
+            ClosePhotogramTheoryScene();
+        }
+        else {
+            GoToPhotogramTheoryScene();
+        }
+    }
+
+    [ContextMenu("Overlays textiles theory scene")]
+    public void GoToTextilesTheoryScene() {
+        SceneManager.LoadScene("TextilesTheorySceneAdd", LoadSceneMode.Additive);
+    }
+
+    [ContextMenu("Closes photogram theory scene")]
+    public void CloseTextilesTheoryScene() {
+        SceneManager.UnloadSceneAsync("TextilesTheorySceneAdd");
+    }
+
+    public void TextilesTheoryScene() {
+        if (SceneManager.GetSceneByName("TextilesTheorySceneAdd").isLoaded) {
+            CloseTextilesTheoryScene();
+        }
+        else {
+            GoToTextilesTheoryScene();
+        }
+    }
 }

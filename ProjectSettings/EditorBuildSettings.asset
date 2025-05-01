@@ -72,6 +72,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Act2/PhotogramGameplayScene.unity
     guid: 4b82f4e078e03a34fab7cf27a380cf61
   - enabled: 1
+    path: Assets/Scenes/Act2/PhotogramTheorySceneAdd.unity
+    guid: 790960c55d2a1f847b5ea0d7b938e743
+  - enabled: 1
     path: Assets/Scenes/Act2/PhotogramGameplayWin.unity
     guid: fc820a4828de5a34b98c0684004e91f7
   - enabled: 1
@@ -95,6 +98,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Act3/TextilesGameplayScene.unity
     guid: 8264565ec594e6f478d509d9a221d380
+  - enabled: 1
+    path: Assets/Scenes/Act3/TextilesTheorySceneAdd.unity
+    guid: 5a4e254026fc7e14e9d0c62575bb7293
   - enabled: 1
     path: Assets/Scenes/Act3/TextilesGameplayWin.unity
     guid: a3ebe8320725fe54eaedddab581c34a6
